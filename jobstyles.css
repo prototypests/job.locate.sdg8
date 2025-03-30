@@ -1,0 +1,81 @@
+body {
+    font-family: Georgia, slab-serif;
+    margin: 45;
+    padding: 10px;
+    background-color: #E8C766;
+    color: #333;
+    text-align: center;
+}
+
+.logo-right {
+     width: 100px;
+     height: auto;
+     display: inline-block;
+     margin: 0 auto 10px;
+     float: right;
+  }
+  
+header {
+    background-color: #9ac6df;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+#JOB-LOCATE {
+    background-color: #E7E6DD;
+    padding: 40px;
+    margin: 20px auto;
+    width: 84%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0F2043;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    display: block;
+    padding: 12px 24px;
+    background-color: #9ac6df;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+ul li a:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: none;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
